@@ -1,0 +1,101 @@
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0% 3% 0%;
+}
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 90vw;
+  padding: 2% 5% 2% 5%;
+}
+.main-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.input-element {
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #171f46;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #171f46;
+  font-weight: 500;
+}
+.add-button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  width: 80px;
+  padding: 7px 14px 7px 14px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.main-img {
+  height: 265px;
+  width: 35vw;
+}
+@media (max-width: 767px) {
+  .main-img {
+    display: none;
+    height: 45vh;
+    width: 35vw;
+  }
+}
+.appointments-starred-elements-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointments-title {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.starred-button {
+  height: 28px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #9796f0;
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  border-radius: 15px;
+  padding: 0px 20px 0px 20px;
+  margin-top: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.high-light {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
